@@ -119,7 +119,6 @@ a:hover{    text-decoration: none;}
 	/* min-width: 1920px; */
 	height: 111px;
 	background:  url(../img/nav-bg.jpg) center center no-repeat;
-	margin-top: 6px;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -645,7 +644,6 @@ a:hover{    text-decoration: none;}
 .shuju-table .g_table_01 tr th:hover{
     transform: scale(1.1,1.1);
     box-shadow: 1px 3px 1px #CCCCCC;
-    font-size: 16px;
 }
 .shuju-table2{
 	border: 1px solid #A7B6C4;
@@ -953,7 +951,9 @@ body .BDD-login {
 .btn.she-but:hover{
 	color: #fff;
 }
-
+.she1-input .check-radio input,.she1-d2 .check-radio input{
+	outline: none;
+}
 
 
 
