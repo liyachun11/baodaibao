@@ -12,7 +12,12 @@ input[type=checkbox],input[type=radio] { vertical-align:middle}
 
 html { height:100%; font:12px/1.5 "Microsoft Yahei","Lucida Grande",Helvetica,Arial; color:#272727; position:relative}
 body { min-width:1050px; background:#F8FDFF}
+<<<<<<< HEAD
 a:hover{    text-decoration: none;}
+=======
+a{    text-decoration: none;}
+a:hover,a:focus{    text-decoration: none;}
+>>>>>>> 000
 /* 可共用得 */
 .clear:after {
     content: "";
@@ -26,6 +31,14 @@ a:hover{    text-decoration: none;}
 	width: 1200px;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
+=======
+.erwei-m {
+	position: absolute;
+	top: 20%;
+	left: 54%;
+}
+>>>>>>> 000
 /* .look-xq{
 	padding: 58px 100px 60px;
 } */
@@ -36,14 +49,32 @@ a:hover{    text-decoration: none;}
 	width: 1200px;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
 
 } /*>=1024的设备*/
+=======
+.erwei-m {
+	position: absolute;
+	top: 20%;
+	left: 54%;
+}
+
+}
+>>>>>>> 000
 @media (min-width: 1280px) {
 .main-box{
 	width: 1200px;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
 
+=======
+.erwei-m {
+	position: absolute;
+	top: 20%;
+	left: 54%;
+}
+>>>>>>> 000
 } 
 
 @media (min-width: 1366px) {
@@ -51,7 +82,15 @@ a:hover{    text-decoration: none;}
 	width: 1200px;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
 
+=======
+	.erwei-m {
+		position: absolute;
+		top: 20%;
+		left: 54%;
+	}
+>>>>>>> 000
 }  
 
 @media (min-width: 1440px) {
@@ -59,7 +98,15 @@ a:hover{    text-decoration: none;}
 	width: 1200px;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
 
+=======
+	.erwei-m {
+		position: absolute;
+		top: 20%;
+		left: 54%;
+	}
+>>>>>>> 000
 } 
 
 @media (min-width: 1680px) {
@@ -67,14 +114,30 @@ a:hover{    text-decoration: none;}
 	width: 1440px;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
 
+=======
+	.erwei-m {
+		position: absolute;
+		top: 20%;
+		left: 43%;
+	}
+>>>>>>> 000
 } 
 @media (min-width: 1920px) {
 .main-box{
 	width: 1550px;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
 
+=======
+	.erwei-m {
+		position: absolute;
+		top: 20%;
+		left: 43%;
+	}
+>>>>>>> 000
 } 
 
 
@@ -119,6 +182,10 @@ a:hover{    text-decoration: none;}
 	/* min-width: 1920px; */
 	height: 111px;
 	background:  url(../img/nav-bg.jpg) center center no-repeat;
+<<<<<<< HEAD
+=======
+	margin-top: 6px;
+>>>>>>> 000
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -431,6 +498,10 @@ a:hover{    text-decoration: none;}
 /* ....订单详情页开始 */
 .look-xq{
 	padding: 58px 0px 60px;
+<<<<<<< HEAD
+=======
+	position: relative;
+>>>>>>> 000
 }
 .status {
     font-size: 14px;
@@ -644,6 +715,10 @@ a:hover{    text-decoration: none;}
 .shuju-table .g_table_01 tr th:hover{
     transform: scale(1.1,1.1);
     box-shadow: 1px 3px 1px #CCCCCC;
+<<<<<<< HEAD
+=======
+    font-size: 16px;
+>>>>>>> 000
 }
 .shuju-table2{
 	border: 1px solid #A7B6C4;
@@ -867,6 +942,12 @@ body .BDD-login {
     background: darkgray;
     cursor: inherit;
 }
+<<<<<<< HEAD
+=======
+.fr {
+    float: right;
+}
+>>>>>>> 000
 /* .........账户页面......... */
 .zhanghu-box{
 	border: 1px solid #D9D9D9;
@@ -891,7 +972,19 @@ body .BDD-login {
 }
 .dingdan-box .zhanghu-tab li a span{
     padding: 0 25px;
+<<<<<<< HEAD
     border-right: 1px solid #B7BBBE;
+=======
+    
+}
+
+.dingdan-box .zhanghu-tab li:nth-child(2n+1) a span{
+	border-right: 1px solid #B7BBBE;
+	border-left: 1px solid #B7BBBE;
+}
+.dingdan-box .zhanghu-tab li a.zhanghu-br span{
+	border-left: 0;
+>>>>>>> 000
 }
 #myTab{
 	background-color: #F9F9F9;
@@ -921,7 +1014,10 @@ body .BDD-login {
 }
 .order_pc dd input{
 	margin: 0;
+<<<<<<< HEAD
 	cursor: pointer;
+=======
+>>>>>>> 000
 	margin-right: 5px;
 }
 .g_writ_che dt.she1-dt{
@@ -929,10 +1025,18 @@ body .BDD-login {
 }
 .g_writ_che dd{
 	line-height: 30px;
+<<<<<<< HEAD
 }
 .she1-dl dd input,.she1-d2 dd .d2-inp{
 	width: 126px;
 	height: 30px;
+=======
+	float: left;
+}
+.she1-dl dd input,.she1-d2 dd .d2-inp{
+	width: 126px;
+	height: 34px;
+>>>>>>> 000
 	padding: 0 8px;
 	border: 1px solid #C0D0D8;
 	border-radius: 2px;
@@ -951,10 +1055,151 @@ body .BDD-login {
 .btn.she-but:hover{
 	color: #fff;
 }
+<<<<<<< HEAD
 .she1-input .check-radio input,.she1-d2 .check-radio input{
 	outline: none;
 }
 
+=======
+/* ......分支结构...... */
+.fenzhi-box .btn_green{
+	margin: 20px;
+	background-color: #2E8CE5;
+	width: 350px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 24px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+}
+.c_g{
+	color: #437DB6;
+}
+.fenzhi-box1{
+	margin-bottom: 50px;
+}
+#city{
+	width: 128px;
+	height: 22px;
+	line-height: 22px;
+	border:1px solid #A7B6C4;
+	background-color: #F3F9FC;
+	font-size: 14px;
+	color: #2c8ce5;
+	border-radius: 2px;
+}
+.zhbj-box{
+	position: relative;
+	padding: 80px 0;
+}
+.bianji-btn{
+	width: 260px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #3697F3;
+	border-radius: 4px;
+	font-size: 22px;
+	color: #fff;
+	display: inline-block;
+	cursor: pointer;
+}
+/*.erwei-m{*/
+	/*position: absolute;*/
+	/*top: 20%;*/
+	/*left: 43%;*/
+
+/*}*/
+.erwei-m dt{
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #333;
+	
+}
+.daili-but{
+	padding: 18px 6px;
+	background-color: #DFE1E6;
+}
+.daili-but span{
+	font-size: 14px;
+	color: #333;
+	margin-right: 12px;
+}
+.dingdan-box .zhanghu-tab li a{
+	font-size: 14px;
+}
+.daili-but .btn-primary{
+	background-color: #87B9E8;
+	border: 0;
+	padding: 3px 10px;
+}
+.daili-but .btn-primary img{
+	widows: 7px;
+	height: 4px;
+}
+.btn_green.btn_green2{
+	width:145px;
+}
+.active .panel{
+	display: block;
+	opacity: 1;
+}
+/*弹出框*/
+.tan-box{
+	width: 760px;
+	margin: 0 auto;
+	border: 1px solid #9a9da2;
+	padding-bottom: 50px;
+	position: absolute;
+	left: 50%;
+	margin-left: -380px;
+	background-color: #fff;
+	z-index: 5;
+	-webkit-box-shadow:0 0 30px #666;
+	-moz-box-shadow:0 0 30px #666;
+	box-shadow:0 0 30px #666s;
+}
+.tan-tlt{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	font-size: 22px;
+	color: #666;
+	background-color: #f6f6f6;
+}
+.tan-tlt span{
+	float: right;
+	width: 30px;
+	text-align: right;
+	cursor: pointer;
+}
+.tan-cot{
+	padding: 0 20px;
+}
+.tan-cot p{
+	line-height: 40px;
+}
+.tan-p{
+	padding: 20px 0;
+	font-size: 12px;
+	color: #f00;
+	border-bottom: 1px dashed #bcbcbc;
+}
+.tan-sel{
+	width: 200px;
+	height: 30px;
+}
+.tan-text{
+	width: 442px;
+	min-height: 125px;
+	padding: 10px;
+	margin-bottom: 26px;
+}
+>>>>>>> 000
 
 
 
@@ -978,6 +1223,7 @@ body .BDD-login {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -1462,3 +1708,5 @@ a { color:#484747; text-decoration:none}
 .tanchu_center dd{ width:600px; float:left; text-align:left;}
 .tanchu_center_anniu{ width:110px; float:left; margin:20px 0 0 120px;}
 /*by wb end*/
+=======
+>>>>>>> 000
